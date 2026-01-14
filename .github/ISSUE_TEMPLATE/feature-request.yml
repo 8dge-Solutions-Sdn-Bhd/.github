@@ -1,0 +1,20 @@
+name: Feature request
+description: Suggest a new idea or enhancement for this project
+title: "[FEATURE]: "
+labels: ["enhancement"]
+type: "feature"
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the feature you want to request
+      placeholder: What do you want to change or add? What are the benefits of implementing this?
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context, screenshots, or mockups here.
+      placeholder: Drag and drop screenshots here...
